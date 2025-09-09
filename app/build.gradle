@@ -16,13 +16,18 @@ repositories {
 }
 
 dependencies {
-    // Use JUnit Jupiter for testing.
-    testImplementation libs.junit.jupiter
+    // JUnit 5 API (컴파일/테스트 코드에서 사용)
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+    // JUnit 5 런타임 엔진
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
 
+    // (선택) 플랫폼 런처 유지해도 됨
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
     // This dependency is used by the application.
     implementation libs.guava
+
+    
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
