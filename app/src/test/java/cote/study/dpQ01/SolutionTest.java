@@ -10,7 +10,7 @@ public class SolutionTest {
     private final Solution solution = new Solution();
 
     @Test
-    void 예제를_성공한다() {
+    void 테스트_케이스를_성공한다() {
         List<int[]> energyUsage = List.of(
             new int[]{10, 100},
             new int[]{10, 100},
