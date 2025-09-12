@@ -24,6 +24,8 @@ public class Solution {
 
         int result = dp(workbenchCnt);
         System.out.println(result);
+
+        sc.close();
     }
 
     public int dp(int workbenchCnt) {

@@ -1,6 +1,5 @@
 package cote.study.queueQ01;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.List;
